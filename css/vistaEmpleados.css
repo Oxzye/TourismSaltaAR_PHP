@@ -1,0 +1,369 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: monospace;
+    font-weight: 600;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    background-color: lightgrey;
+    font-family: "Poppins", sans-serif;
+    background-image: url(/imagenes/bodyCielo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* barra inicial */
+.menu {
+    text-align: center;
+    height: 80px;
+    background-color: #000000D9;
+    margin-bottom: 1%;
+}
+
+.menu-links {
+    float: right;
+    padding: 0;
+    display: flex;
+    margin-right: 2%;
+}
+
+.menu-links a {
+    list-style: none;
+}
+
+.menu-links a {
+    text-decoration: none;
+    color: white;
+    padding: 1.6rem;
+    display: block;
+}
+
+#iniciarsesion {
+    background-color: darkred;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+.material-symbols-outlined {
+    margin-right: 8px;
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+}
+
+
+
+.botonSearch {
+    width: 350px;
+    height: 60px;
+    margin: 8px 35px 8px 8px;
+    border-radius: 30px;
+    border-color: grey;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48;
+}
+/* fin barra inicial */
+/* PRIMER Nav */
+.PrAside {
+    float: left;
+    width: 17%;
+    background-color: #2c3e50;
+    height: 90vh;
+}
+
+.barraPrincipal {
+    list-style: none;
+    text-align: left;
+    margin-top: 2vh;
+    font-size: 18px;
+}
+
+.barraPrincipal>li {
+    color: white;
+    width: 100%;
+    height: 5.5vh;
+    padding: 10px 0px;
+}
+.barraPrincipal>li:hover {
+    background-color: #127b8e;
+    transition: 500ms background-color;
+}
+
+.barraPrincipal>li a {
+    color: white;
+    padding-left: 3vh;
+    letter-spacing: 1px;
+}
+
+.seleccionado {
+    background-color: #135c68;
+}
+
+.usuario{
+    margin-top: 4vh;
+    text-align: center;
+}
+.usuario img{
+    width: 50%;
+    height: 15vh;
+    border-radius: 50%;
+}
+.usuario h4{
+    color: rgb(188, 185, 185);
+    font-size: large;
+}
+.barraPrincipal li:nth-child(+3),li:nth-child(+2){
+    cursor: no-drop;
+}
+/* FIN PRIMER Nav */
+/* PRIMER ARTICULO */
+.PrArticulo {
+    width: auto;
+    float: left;
+    width: 80%;
+}
+
+.PrArticulo>.PrSect {
+    margin: 8px;
+}
+.PrArticulo>.PrSect {
+    margin: 0px;
+}
+.h3principal {
+    margin: 0px;
+    font-size: 25px;
+    background-color: rgba(204, 75, 75, 0.75);
+    margin-right: 2%;
+    text-align: center;
+    padding: 1% 10% 1% 10%;
+    color: white;
+}
+
+.h3principal2 {
+    margin-bottom: 0%;
+    font-size: 25px;
+    background-color: rgba(204, 75, 75, 0.75);
+    margin-right: 2%;
+    text-align: center;
+    padding: 1% 10% 1% 10%;
+    color: white;
+}
+/*FIN PRIMER ARTICULO*/
+/* presentaciones  */
+.PrSect {
+    float: left;
+    margin: 2%;
+    width: 45%;
+    height: 45vh;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.pPresentacionesViajes,
+.pPresentacionesCosas,
+.pPresentacionesForos,
+.pPresentacionesPaquetes {
+    height: 100px;
+    background-color: white;
+}
+
+.indiceUl>a {
+    text-align: center;
+    font-size: 25px;
+    display: inline-block;
+    width: 45%;
+    border: solid 1px black;
+    border-radius: 10px;
+    margin: 1%;
+}
+
+.indiceUl>a {
+    color: black;
+    text-decoration: none;
+}
+
+.indiceUl>a:hover {
+    color: white;
+    background-color: blue;
+}
+/* PAQUETES viajes Y TITULOS DE SECTION */
+.ulViajes {
+    text-align: left;
+    margin-left: 5%;
+}
+
+.pPresentaciones {
+    background-color: rgba(204, 75, 75, 0.75);
+    margin: 0% 0% 1% 0%;
+    padding-left: 30%;
+    border: white solid 1px;
+    font-size: 24px;
+}
+
+.h6Presentaciones {
+    color: rgb(204, 75, 75);
+    font-size: 20px;
+}
+
+.accesosDire {
+    font-size: 16px;
+    margin: 0%;
+    color: black;
+}
+
+.accesosDire:hover {
+    color: blue;
+}
+/* fin viajes */
+/* eSTADISTICAS MENSUALES FOTO */
+.graficoVentas {
+    width: 98%;
+    height: 360px;
+}
+/* fin ESTADISTICAS */
+/* Lugares Visitados */
+.graficoLugaresVisitados {
+    width: 98%;
+    height: 80%;
+}
+/* fin Lugares Visitados */
+/* paquetes */
+.ulparaPaquete {
+    text-align: left;
+    margin-left: 5%;
+}
+
+.accesosPaquete {
+    font-size: 16px;
+    margin: 0%;
+    color: black;
+}
+
+.accesosPaquete:hover {
+    color: blue;
+}
+/* fin paquetes */
+/* SEGUNDO SECTION */
+/*Section de formulario*/
+.SegSect{
+    float: left;
+    width: 98%;
+    background-color: white;
+    padding: 0% 5% 0% 5%;
+}
+/*Section de tablas*/
+.SegSect2 {
+    float: left;
+    width: 98%;
+    height: 50vh;
+    background-color: white;
+    padding: 0% 5% 0% 5%;
+}
+
+.SegSect2 {
+    margin-top: 0%;
+    height: 509px;
+}
+/* TABLA */
+.palabra {
+    display: block;
+    color: white;
+}
+
+.table2 {
+    margin: 0% 0% 0% 0%;
+}
+
+.tabla2 th {
+    background-color: rgba(204, 75, 75, 0.75);
+    width: 3%;
+    text-align: center;
+}
+
+.tabla2 td {
+    text-align: center;
+    background-color: lightblue;
+}
+
+.tabla5{
+    display: inline-block;
+    width: 45%;
+}
+.tabla5 td{
+    text-align: center;
+    background-color: lightblue;
+}
+.tabla5 th{
+    background-color: rgba(204, 75, 75, 0.75);
+    width: 3%;
+    text-align: center;
+}
+/* FIN TABLA */
+/* tabla1 */
+.tabla1 {
+    font-size: larger;
+    box-sizing: content-box;
+    text-align: center;
+    background-color: #127b8e;
+    margin: 1% auto;
+    padding: 2% 5%;
+}
+
+.tabla1 td {
+    color: white;
+    height: 2rem;
+}
+
+.tabla1 input,option,select {
+    font-size: large;
+    padding-left: 2%;
+    width: 300px;
+}
+
+.tabla1 select {
+    padding-left: 2%;
+    width: 300px;
+}
+
+.btn-ing,
+.btn-mod {
+    padding: 5% 10% 5% 10%;
+    border-radius: 10%;
+    background-color: #2c3e50;
+    color: white;
+}
+
+.btn-ing {
+    margin: auto;
+}
+
+.btn-mod {
+    margin: auto;
+    
+}
+
+.btn-ing:hover {
+    background-color: rgba(204, 75, 75, 0.75);
+}
+
+.btn-mod:hover {
+    background-color: rgba(204, 75, 75, 0.75);
+}
+
+/* fin tabla1 */
+/* SEGUNDO SECTION */
+/* fin presentaciones */

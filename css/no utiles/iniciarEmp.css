@@ -1,0 +1,178 @@
+* {
+    font-family: 'Raleway';
+    box-sizing: border-box;
+  }
+  body {
+    background-image: url(/imagenes/fondoEmpIni.webp);
+    width: 100%;
+    height: auto;
+    background-size: 100% 100%;
+    font-family: "Poppins", sans-serif;
+  }
+  /* FORMULARIO */
+  main {
+    width: 345px;
+    text-align: left;
+    background-color: rgb(255, 255, 255, 0.3);
+    border-radius: 10px;
+    margin: 180px auto;
+    padding: 40px 20px 40px 20px;
+    color: rgb(53, 54, 56);
+    background: rgba(255, 255, 255, 0.21);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10.5px);
+  -webkit-backdrop-filter: blur(10.5px);
+  }
+  
+  h2 {
+    text-align: center;
+    color: black;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  .formulario_input {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: auto;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.786);
+  }
+  
+.boton{
+  
+    color: #fff;
+    width: 268px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    margin: 4px 0px 0px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  .boton{
+    background-color: rgba(24, 11, 84, 0.501);
+  }
+a{
+    text-decoration: none;
+    color: white;
+}
+  
+  /* FIN FORMULARIO */
+  /* FOOTER */
+#fondonegrofooter {
+	background-image: url(https://preview.colorlib.com/theme/vacation/images/xfooter-bg.jpg.pagespeed.ic.ZMAo_83aSu.webp);
+	height: 116px;
+	width: 100%;
+  margin: 0%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: grid;
+	grid-template-columns: repeat(1, 19%);
+	grid-template-rows: repeat(1, fit-content);
+	justify-content: center;
+	grid-gap: 1%;
+  ;
+}
+
+#footerAncho {
+	background-color: black;
+	width: 100%;
+	margin: auto;
+	box-sizing: border-box;
+}
+
+.h4vacation {
+	padding-top: 0px;
+	color: #fff;
+	font-size: 100%;
+	font-weight: 60;
+	padding-bottom: 25px;
+}
+.paraVacation {
+	color: #b4afaf;
+	line-height: 30px;
+	font-size: 16px;
+}
+.vacationColumn,#haveQueColumn{
+  height: 2px;
+}
+.twitterLogo{
+  height: 20px;
+}
+.twitterLogoBc {
+	height: 50px;
+	width: 50px;
+	background-color: #2e2d2d;
+	border: 0;
+	cursor: pointer;
+	border-radius: 50%;
+	margin-top: 30px;
+}
+.twitterLogoImg {
+	height: 40px;
+	width: 40px;
+}
+#informationButtons,
+#ExperienceButtons {
+
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+#informationButtons > button,
+#ExperienceButtons > button {
+	text-align: flex-start;
+	width: fit-content;
+	border: 0;
+	margin-bottom: 0px;
+	background-color: transparent;
+	color: #b4afaf;
+	font-size: 100%;
+	cursor: pointer;
+}
+
+#haveQuestionAlign {
+	display: flex;
+}
+.location_on {
+	color: #fff;
+}
+.location_on + p {
+	color: #999;
+	margin-top: 0;
+	padding-left: 6%;
+}
+.footerPhone,
+.footerMail{
+	background-color: transparent;
+	color: white;
+	border: 0;
+	cursor: pointer;
+}
+.footerNumber,
+.footerMailId {
+	background-color: transparent;
+	color: white;
+	border: 0;
+	font-size: 100%;
+	cursor: pointer;
+}
+.footerMailId {
+	font-size: 90%;
+}
+p {
+  text-align: center;
+	text-align: center;
+	color: #fff;
+	/* border: 1px solid green; */
+	margin-top: 0;
+	padding-top: 0;
+}
+/* fin FOOTER */

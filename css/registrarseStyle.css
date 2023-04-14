@@ -1,0 +1,258 @@
+* {
+  font-family: 'Raleway';
+  box-sizing: border-box;
+}
+body {
+  background-image: url(../imagenes/teleferico-san-bernardo.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+/* MENU */
+.menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.256);
+	width: 100%;
+	top: 0;
+	z-index: 100;
+}
+
+.logo {
+	background-color: rgb(139, 0, 0);
+	padding: 0.4rem 1.8rem;
+	margin-left: 5rem;
+	margin-top: -1rem;
+}
+
+.logo a {
+	text-decoration: none;
+	color: white;
+}
+
+.logo a:hover {
+	color: gold;
+	transition-duration: 0.6s;
+}
+
+.logo h1 {
+	font-weight: 700;
+	margin-bottom: -1.8rem;
+}
+
+.logo h5 {
+	margin-left: 0.2rem;
+}
+
+.menu-links ul {
+	margin-right: 5.5rem;
+	padding: 0;
+	display: flex;
+}
+
+.menu-links li {
+	list-style: none;
+}
+
+.menu-links li a {
+	text-decoration: none;
+	color: white;
+	padding: 1.6rem;
+	display: block;
+}
+
+#iniciarsesion {
+	background-color: darkred;
+	border-radius: 3px;
+}
+.material-symbols-outlined {
+  margin-right: 8px;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+.menu-links a:hover {
+	color: gold;
+	transition-duration: 0.5s;
+}
+.presentacion {
+	padding-top: 13.5%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+/* FIN MENU */
+
+main {
+	width: 345px;
+	text-align: left;
+	background-color: rgb(255, 255, 255, 0.3);
+	border-radius: 10px;
+	margin: 70px auto;
+	padding: 10px 20px 40px 20px;
+	color: rgb(53, 54, 56);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(10.5px);
+	-webkit-backdrop-filter: blur(10.5px);
+}
+
+h2 {
+  text-align: center;
+}
+
+label {
+  font-weight: bold;
+}
+
+.formulario_input {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  font-weight: auto;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.664);
+}
+
+.boton {
+  background-color: rgba(227, 49, 49, 0.501);
+  color: #fff;
+  width: 268px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  margin: 4px 0px 0px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+}
+#registrarcon {
+  background-color: rgba(24, 11, 84, 0.501);
+  color: #fff;
+  width: 268px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  margin: 35px 0px 0px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+}
+/* FOOTER */
+#fondonegrofooter {
+	background-image: url(https://preview.colorlib.com/theme/vacation/images/xfooter-bg.jpg.pagespeed.ic.ZMAo_83aSu.webp);
+	height: 276px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 1% 50px 150px 150px;
+	display: grid;
+	grid-template-columns: repeat(4, 19%);
+	grid-template-rows: repeat(2, fit-content);
+	justify-content: center;
+	grid-gap: 3%;
+  ;
+}
+
+#footerAncho {
+	background-color: black;
+	width: 100%;
+	margin: auto;
+	box-sizing: border-box;
+}
+
+.h4vacation {
+	padding-top: 0px;
+	color: #fff;
+	font-size: 100%;
+	font-weight: 600;
+	padding-bottom: 25px;
+}
+.paraVacation {
+	color: #b4afaf;
+	line-height: 30px;
+	font-size: 16px;
+}
+.vacationColumn,#haveQueColumn{
+  height: 200px;
+}
+.twitterLogo{
+  height: 200px;
+}
+.twitterLogoBc {
+	height: 50px;
+	width: 50px;
+	background-color: #2e2d2d;
+	border: 0;
+	cursor: pointer;
+	border-radius: 50%;
+	margin-top: 30px;
+}
+.twitterLogoImg {
+	height: 40px;
+	width: 40px;
+}
+#informationButtons,
+#ExperienceButtons {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+#informationButtons > button,
+#ExperienceButtons > button {
+	text-align: flex-start;
+	width: fit-content;
+	border: 0;
+	margin-bottom: 25px;
+	background-color: transparent;
+	color: #b4afaf;
+	font-size: 100%;
+	cursor: pointer;
+}
+
+#haveQuestionAlign {
+	display: flex;
+}
+.location_on {
+	color: #fff;
+}
+.location_on + p {
+	color: #999;
+	margin-top: 0;
+	padding-left: 6%;
+}
+.footerPhone,
+.footerMail {
+	background-color: transparent;
+	color: white;
+	border: 0;
+	cursor: pointer;
+}
+.footerNumber,
+.footerMailId {
+	background-color: transparent;
+	color: white;
+	border: 0;
+	font-size: 100%;
+	cursor: pointer;
+}
+.footerMailId {
+	font-size: 90%;
+}
+#span {
+	grid-area: 2/1 / span 1 / span 4;
+}
+#span > p {
+	text-align: center;
+	color: #fff;
+	/* border: 1px solid green; */
+	margin-top: 0;
+	padding-top: 0;
+}
+
+/* FOOTER */

@@ -1,0 +1,231 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    width: 100%;
+    height: auto;
+    background-color:lightgrey;
+    font-family: "Poppins", sans-serif;
+	background-image: url(/imagenes/bodyCielo.jpg);
+	background-size: cover;
+	background-position: center;
+}
+/* barra inicial */
+.menu{
+    text-align: right;
+    height: 80px;
+    background-color: #000000D9;
+    margin-bottom: 1%;
+}
+.menu-links {
+    float: right;
+	padding: 0;
+	display: flex;
+    margin-right: 2%;
+}
+.menu-links a{
+	list-style: none;
+}
+.menu-links a{
+	text-decoration: none;
+	color: white;
+	padding: 1.6rem;
+	display: block;
+}
+#iniciarsesion {
+	background-color: darkred;
+	border-radius: 3px;
+    display: inline-block;
+}
+.material-symbols-outlined {
+    margin-right: 8px;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  }
+  .menu-links a:hover {
+	color: gold;
+	transition-duration: 0.5s;
+}
+.botonSearch{
+    width: 350px;
+    height: 60px;
+    margin: 8px 35px 8px 8px;
+    border-radius: 30px;
+    border-color: grey;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48;
+}
+/* fin barra inicial */
+/* PRIMER Nav */
+.PrAside{
+    width: auto;
+    float: left;
+    width: 15%;
+    background-color: #2c3e50;
+    height: 840px;
+    margin-left: 1%;
+}
+.barraPrincipal{
+    list-style: none;
+    text-align: left;
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size: 18px;
+}
+.barraPrincipal > li{
+    color: white;
+    margin: 20px 0px;
+}
+.barraPrincipal > li a{
+    color: white;
+    
+}
+.barraPrincipal > li a:hover{
+    color: yellow;
+    font-size: 18px;
+    text-decoration: underline;
+}
+.LIprincipales{
+    font-size: 24px;
+}
+.barraPrincipal > li:nth-child(7){
+    background-color: rgb(204,75,75);
+}
+/* FIN PRIMER Nav */
+/* PRIMER ARTICULO */
+.PrArticulo{
+    width: auto;
+    float: left;
+    width: 80%;
+}
+.PrArticulo> .PrSect{
+    margin: 0px;
+}
+.h3principal{
+    margin: 0px;
+    font-size: 25px;
+    background-color: rgba(204,75,75,0.75);
+    margin-right: 2%;
+    text-align: center;
+    padding: 1% 10% 1% 10%;
+    color: white;
+}
+.h3principal2{
+    margin-bottom: 0%;
+    font-size: 25px;
+    background-color: rgba(204,75,75,0.75);
+    margin-right: 2%;
+    text-align: center;
+    padding: 1% 10% 1% 10%;
+    color: white;
+}
+/* SEGUNDO SECTION */
+.SegSect,.SegSect2{
+    float: left;
+    width: 98%;
+    background-color: white;
+    padding: 0% 5% 0% 5%;
+}
+.SegSect{
+    height: 280px;
+}
+.SegSect2{
+    margin-top: 0%;
+    height: 470px;
+}
+/* TABLA */
+.palabra{
+    display: block;
+    color: white;
+}
+.table2{
+    border: black solid  100px;
+    margin: 0% 0% 0% 0%;
+}
+.tabla2 th{
+    background-color: rgba(204,75,75,0.75);
+    width: 3%;
+    text-align: center;
+}
+.tabla2 td{
+    text-align: center;
+    background-color: lightblue;
+}
+.tabla1{
+    margin: 2% 0% 0% 0%;
+}
+/* FIN TABLA */
+/* tabla1 */
+.btn-ing,.btn-mod{
+    padding: 5% 10% 5% 10%;
+    border-radius: 10%;
+    background-color: rgba(24, 11, 84, 0.861);
+    color: white;
+}
+.btn-ing{
+    margin: 0% 0% 0% 20%;
+}
+.btn-mod{
+    margin: 20% 0% 20% 50%;;
+}
+.btn-ing:hover{
+    background-color: rgba(204,75,75,0.75);
+}
+.btn-mod:hover{
+    background-color: rgba(204,75,75,0.75);
+}
+/* fin tabla1 */
+/* SEGUNDO SECTION */
+/* aqui empieza parte responsible */
+@media (max-width: 952px){
+    .enlace{
+        padding-left: 20px;
+    }
+    .navegative ul li a{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 858px){
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    .navegative ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    .navegative ul li a{
+        font-size: 20px;
+    }
+    li a:hover, li a.active{
+        background: none;
+        color: red;
+    }
+    #check:checked ~ ul{
+        left:0;
+    }
+}
+/* fin probar */
